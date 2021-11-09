@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    background: #fff;
+    color: black;
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+header .title {
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+    font-family: 'Cedarville Cursive', cursive;
+}
+
+
+article {
+    display: block;
+}
+
+
+.news-container {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+    border: 3px solid;
+    border-left: 3px solid;
+   
+}
+
+.box {
+    width: 25%;
+}
+
+.news {
+    border-right: 1px solid black;
+    padding: 0 10px;
+}
+
+
+.box-2 {
+    width: 100%;
+}
+
+.box-2 > img {
+    width:50%;
+}
+
+.box-3 {
+  width: 75%;
+}
+
+.other-sections {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+li{
+ text-align: -webkit-match-parent;   
+}
+
+
+.section-link {
+    text-decoration: none;
+    font-size: 30px;
+    padding-left: 30px;
+    font-weight: bold;
+    font-family: "Futura";
+    color: #666;
+}
+
+.section-link:hover {
+    cursor: pointer;
+    background-color: white;
+}
+
+.site-section {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.site-section-politics {
+    background-color: #ffeaa7;
+}
+
+.site-section-tech {
+    background-color: #81ecec;
+}
+
+.site-section-local {
+    background-color: #55efc4;
+}
+
+
+.site-section-opinion {
+  background-color:  #74b9ff;
+}
+
+.site-section-sports {
+    background-color: #a29bfe;
+}
+
+
+.news-heading {
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 30px;
+}
+
+.news-paragraph {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
